@@ -1,5 +1,6 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
       "id": 1
@@ -10,7 +11,8 @@
       "id": 2
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
       "id": 1
@@ -21,10 +23,126 @@
       "id": 2
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "name": "Zach",
+      "email": "zfrohardt@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "email": "test@example.com",
+      "id": 2
+    },
+    {
+      "name": "test",
+      "email": "test@example.com",
+      "id": 3
+    },
+    {
+      "name": "test",
+      "email": "test@example.com",
+      "id": 4
+    },
+    {
+      "name": "test",
+      "email": ":test",
+      "id": 5
+    },
+    {
+      "name": "test",
+      "email": ":test",
+      "id": 6
+    },
+    {
+      "name": "test",
+      "email": ":test",
+      "id": 7
+    },
+    {
+      "name": "test",
+      "email": ":test",
+      "id": 8
+    },
+    {
+      "name": "test",
+      "email": ":test",
+      "id": 9
+    },
+    {
+      "name": "test",
+      "email": ":test",
+      "id": 10
+    },
+    {
+      "name": "test",
+      "email": ":test",
+      "id": 11
+    },
+    {
+      "name": "test",
+      "email": ":test",
+      "id": 12
+    },
+    {
+      "name": "test",
+      "email": ":test",
+      "id": 13
+    },
+    {
+      "name": "this",
+      "email": "test",
+      "id": 14
+    },
+    {
+      "name": "this",
+      "email": "test",
+      "id": 15
+    },
+    {
+      "name": "this",
+      "email": "test",
+      "id": 16
+    },
+    {
+      "name": "this",
+      "email": "test",
+      "id": 17
+    },
+    {
+      "name": "this",
+      "email": "test",
+      "id": 18
+    },
+    {
+      "name": "this",
+      "email": "test",
+      "id": 19
+    },
+    {
+      "name": "this",
+      "email": "test",
+      "id": 20
+    },
+    {
+      "name": "this",
+      "email": "test",
+      "id": 21
+    },
+    {
+      "name": "this",
+      "email": null,
+      "id": 22
+    },
+    {
+      "id": 23
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": 9000
+    }
+  ]
 }
