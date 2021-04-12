@@ -7,10 +7,8 @@ function submitData(name, email) {
     let fetchVar = fetch("http://localhost:3000/users", getConfigObject(userData));
 
     fetchVar.then(response => response.json())
-    .then(json => document.body.append(json.id + "\n"))
-    .catch(error => {
-        document.body.append(error.message);
-    });
+    .then(json => document.body.innerHTML = json.id)
+    .catch(error => document.body.innerHTML = error.message);
 
     return fetchVar;
 }
